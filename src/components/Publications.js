@@ -8,6 +8,7 @@ import "../styles/publications.scss"
 import hriLabGif from "../images/publications/hri_lab.gif"
 import urLousdVideo from "../images/publications/ur_lousd.mp4"
 import h1SilVideo from "../images/publications/h1_sil.mp4"
+import h1TrainVideo from "../images/nvidia/h1_Train.mp4"
 
 // Helper function to detect if file is a video
 const isVideoFile = (url) => {
@@ -124,6 +125,14 @@ const Publications = () => {
       imageSrc: h1SilVideo,
       projectLink: "https://dl.acm.org/doi/10.1145/3721251.3734066",
       type: "ACM"
+    },
+    {
+      id: 3,
+      title: "Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning",
+      subtitle: "NVIDIA White Paper, 2025",
+      imageSrc: h1TrainVideo,
+      projectLink: "https://d1qx31qr3h6wln.cloudfront.net/publications/Isaac%20Lab%2C%20A%20GPU-Accelerated%20Simulation%20Framework%20for%20Multi-Modal%20Robot%20Learning.pdf",
+      type: "NVIDIA"
     }
   ];
 
