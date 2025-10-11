@@ -27,28 +27,14 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    
-    /* Add mobile horizontal padding */
-    @media (max-width: 768px) {
-      padding: 0 16px;
-    }
-    @media (max-width: 480px) {
-      padding: 0 12px;
-    }
   
     .content {
       width: 55%;
-      padding: 0 32px; /* Add horizontal padding to ensure spacing from edges */
+      padding: 0; /* Remove extra padding - container already has padding */
       
       @media (max-width: 992px) {
         width: 100%;
-        padding: 0 24px; /* Reduced padding on smaller screens */
-      }
-      @media (max-width: 768px) {
-        padding: 0 20px; /* Further reduced padding on mobile */
-      }
-      @media (max-width: 480px) {
-        padding: 0 16px; /* Minimal padding on small screens */
+        padding: 0; /* Remove extra padding */
       }
   
       p {
