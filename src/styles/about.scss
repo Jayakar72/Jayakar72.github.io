@@ -1,4 +1,17 @@
-.container{
+#about .container{
+  padding: 0 32px !important; /* Add horizontal padding to ensure spacing from edges */
+  
+  /* Responsive padding for all screen sizes */
+  @media (max-width: 768px) {
+    padding: 0 24px !important; /* Standard mobile padding */
+  }
+  @media (max-width: 480px) {
+    padding: 0 20px !important; /* Comfortable padding on small phones */
+  }
+  @media (max-width: 360px) {
+    padding: 0 16px !important; /* Minimal padding on very small screens */
+  }
+  
   h1 {
     margin-top: 3rem; /* Standardized 3rem spacing from previous section */
     margin-bottom: 1rem; /* Standardized header bottom spacing */
@@ -27,28 +40,16 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    
-    /* Add mobile horizontal padding */
-    @media (max-width: 768px) {
-      padding: 0 16px;
-    }
-    @media (max-width: 480px) {
-      padding: 0 12px;
-    }
+    gap: 2rem; /* Add gap between text and image */
+    padding: 0; /* Remove all padding - container already has padding */
   
     .content {
-      width: 55%;
-      padding: 0 32px; /* Add horizontal padding to ensure spacing from edges */
+      flex: 1 1 50%; /* Use flex instead of fixed width to account for gap */
+      padding: 0; /* Remove extra padding - container already has padding */
       
       @media (max-width: 992px) {
-        width: 100%;
-        padding: 0 24px; /* Reduced padding on smaller screens */
-      }
-      @media (max-width: 768px) {
-        padding: 0 20px; /* Further reduced padding on mobile */
-      }
-      @media (max-width: 480px) {
-        padding: 0 16px; /* Minimal padding on small screens */
+        flex: 1 1 100%;
+        padding: 0; /* Remove extra padding */
       }
   
       p {
@@ -69,7 +70,7 @@
     }
     
     .image-container {
-      width: 40%;
+      flex: 1 1 35%; /* Use flex instead of fixed width to account for gap */
       height: auto;
       overflow: hidden;
       border-radius: 12px; /* Reduced from 15px (80% of original) */
@@ -78,7 +79,7 @@
       z-index: 1;
       
       @media (max-width: 992px) {
-        width: 80%;
+        flex: 1 1 80%;
         margin: 2rem auto; /* Reverted to original mobile value */
       }
     }

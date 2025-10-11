@@ -1,6 +1,18 @@
-.container {
+#nvidia .container {
   max-width: 1000px; /* Ensure NVIDIA section doesn't exceed 1000px */
   margin: 0 auto; /* Center the container */
+  padding: 0 32px !important; /* Add horizontal padding to ensure spacing from edges */
+  
+  /* Responsive padding for all screen sizes */
+  @media (max-width: 768px) {
+    padding: 0 24px !important; /* Standard mobile padding */
+  }
+  @media (max-width: 480px) {
+    padding: 0 20px !important; /* Comfortable padding on small phones */
+  }
+  @media (max-width: 360px) {
+    padding: 0 16px !important; /* Minimal padding on very small screens */
+  }
   
   h1 {
     margin-top: 3rem; /* Standardized 3rem spacing from previous section */
@@ -32,31 +44,14 @@
     margin-bottom: 2rem;
     width: 100%;
     max-width: 1000px; /* Ensure it doesn't exceed 1000px */
-    
-    /* Add mobile horizontal padding */
-    @media (max-width: 768px) {
-      padding: 0 16px;
-    }
-    @media (max-width: 480px) {
-      padding: 0 12px;
-    }
+    padding: 0; /* Remove all padding - container already has padding */
   
     .content {
       width: 100%;
-      max-width: 1000px; /* Ensure content doesn't exceed 1000px */
+      max-width: 1000px; /* Match container width for consistency with other sections */
       margin: 2rem auto 0; /* Center the content */
       text-align: justify;
-      padding: 0 32px; /* Add horizontal padding to ensure spacing from edges */
-      
-      @media (max-width: 768px) {
-        padding: 0 24px; /* Reduced padding on mobile */
-      }
-      @media (max-width: 480px) {
-        padding: 0 20px; /* Further reduced padding on small screens */
-      }
-      @media (max-width: 360px) {
-        padding: 0 16px; /* Minimal padding on very small screens */
-      }
+      padding: 0; /* Remove extra padding - container already has padding */
   
       h2 {
         font-size: 2rem; /* Reduced from 2.5rem (80% of original) */
@@ -78,16 +73,14 @@
         line-height: 1.5;
         color: #333;
         margin-bottom: 1.6rem; /* Reduced from 2rem (80% of original) */
-        padding: 0 1.6rem; /* Reduced from 2rem (80% of original) */
+        padding: 0; /* Remove extra padding - container already has padding */
         
         @media (max-width: 768px) {
           font-size: 1rem; /* Reverted to original mobile value */
-          padding: 0 1rem; /* Reverted to original mobile value */
         }
         
         @media (max-width: 480px) {
           font-size: 0.9rem; /* Reverted to original mobile value */
-          padding: 0 0.5rem; /* Reverted to original mobile value */
         }
       }
   
@@ -112,17 +105,7 @@
       max-width: 1000px; /* Ensure carousel doesn't exceed 1000px */
       margin: 0 auto; /* Center the carousel */
       position: relative;
-      padding: 0 32px; /* Add horizontal padding to ensure spacing from edges */
-      
-      @media (max-width: 768px) {
-        padding: 0 24px; /* Reduced padding on mobile */
-      }
-      @media (max-width: 480px) {
-        padding: 0 20px; /* Further reduced padding on small screens */
-      }
-      @media (max-width: 360px) {
-        padding: 0 16px; /* Minimal padding on very small screens */
-      }
+      padding: 0; /* Remove padding - container already has padding */
       
       @media (max-width: 992px) {
         width: 100%;
