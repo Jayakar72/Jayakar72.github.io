@@ -103,7 +103,7 @@ const siteData = {
       url: "https://uwaterloo.ca/mechanical-mechatronics-engineering/",
       description: [
         {
-          en: "GPA: 3.6, specialized in robotics, artificial intelligence, Computer vision, and Deep learning"
+          en: "GPA: 3.6, specialized in robotics, artificial intelligence, Computer vision, and Deep learning",
         },
         {
           en: "Clubs: GLUG(GNU / Linux user gorup)",
@@ -128,7 +128,7 @@ const siteData = {
           en: "Classes: ME 5250 Robot Mechanics and Control, EECE 5550 Mobile Robotics, CS 5180 Reinforcement Learning and Sequential Decision Making, EECE 5554 Robot Sensing and Navigation",
         },
         {
-          en: "Clubs: NURover(Autonomous rover team), NUAerospace(Rocketry framework design), NUAstronomy(stargazing and astrophotographer))
+          en: "Clubs: NURover(Autonomous rover team), NUAerospace(Rocketry framework design), NUAstronomy(stargazing and astrophotographer)",
 
         },
       ],
