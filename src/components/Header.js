@@ -128,14 +128,14 @@ const Header = () => {
         >
           <Fade bottom>
             <h2>
-              {getText({ en: "Hi, I am", zh: "你好,我是" }, language)} {getText(data.name, language)}{" "}
+              {getText({ en: "Hi, I am" }, language)} {getText(data.name, language)}{" "}
             </h2>
           </Fade>
 
           <Fade bottom>
             <div className="heading-wrapper">
               <h1>
-                {getText({ en: "I am a", zh: "我是一名" }, language)}{" "}
+                {getText({ en: "I am a"}, language)}{" "}
                 <span style={{ color: "red", fontWeight: "bold" }}>
                   <Typewriter
                     loop
@@ -144,9 +144,8 @@ const Header = () => {
                     typeSpeed={70}
                     deleteSpeed={50}
                     delaySpeed={1200}
-                    words={language === 'zh' ? 
-                      ["机器人工程师", "飞行员", "程序猿", "学生", "单簧管演奏者", "固件开发工程师"] :
-                      ["Robotics Engineer", "Pilot", "Code Monkey", "Accordionist", "Simulation Developer", "Student", "Clarinetist", "Firmware Developer"]
+                    words={
+                      ["Robotics Engineer", "Autonomous Testing Engineer", "rocketeer", "Master Student", "Amateur Astronomer"]
                     }
                   />
                 </span>
