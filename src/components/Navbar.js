@@ -24,8 +24,8 @@ const Navbar = () => {
               <button onClick= {event =>  window.location.href=getLanguageUrl(language, '/') + '#home'} type="button">
                 {getText(data.nav.home, language)}
               </button>
-              <button onClick= {event =>  window.location.href=getLanguageUrl(language, '/') + '#project'} type="button">
-                {getText(data.nav.project, language)}
+              <button onClick= {event =>  window.location.href=getLanguageUrl(language, '/') + '#projects'} type="button">
+                {getText(data.nav.projects, language)}
               </button>
               <button onClick= {event =>  window.location.href=getLanguageUrl(language, '/') + '#contact'} type="button">
                 {getText(data.nav.contact, language)}
