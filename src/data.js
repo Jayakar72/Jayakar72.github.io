@@ -31,8 +31,8 @@ import ford from "./images/workPhotos/Ford.webp"
 import ecobee from "./images/workPhotos/ecobeeProduct.webp"
 
 // School images
-import KLLogo from "./images/school/University-of-Waterloo.png"
-import NeuLogo from "./images/school/stanford.webp"
+import KLLogo from "./images/school/KLUniversitylogo.png"
+import NeuLogo from "./images/school/NEUlogo.png"
 import KLImg from "./images/school/waterloo_eng_img.webp"
 import NeuImg from "./images/school/stanford_img.webp"
 
