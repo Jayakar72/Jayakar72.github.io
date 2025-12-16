@@ -31,12 +31,10 @@ import ford from "./images/workPhotos/Ford.webp"
 import ecobee from "./images/workPhotos/ecobeeProduct.webp"
 
 // School images
-import WaterlooLogo from "./images/school/University-of-Waterloo.png"
-import AirLabLogo from "./images/school/airlab_logo_extended.jpg"
-import StanfordLogo from "./images/school/stanford.webp"
-import WaterlooImg from "./images/school/waterloo_eng_img.webp"
-import AirLabImg from "./images/school/airlab_img.webp"
-import StanfordImg from "./images/school/stanford_img.webp"
+import KLLogo from "./images/school/University-of-Waterloo.png"
+import NeuLogo from "./images/school/stanford.webp"
+import KLImg from "./images/school/waterloo_eng_img.webp"
+import NeuImg from "./images/school/stanford_img.webp"
 
 
 // Helper function for getting text in current language
@@ -61,115 +59,78 @@ const siteData = {
   },
  
   headerParagraph: {
-    en: "I am a robotics systems engineer passionate about bringing autonomous and biomimetic robots to life."
+    en: "I am a robotics engineer passionate about bringing autonomous and instinct-driven robots to life."
   },
 
   // Navigation labels
   nav: {
-    home: { en: "Home", zh: "首页" },
-    work: { en: "Work", zh: "工作" },
-    projects: { en: "Projects", zh: "项目" },
-    contact: { en: "Contact", zh: "联系" },
-    resume: { en: "Resume", zh: "简历" }
+    home: { en: "Home"},
+    work: { en: "Work"},
+    projects: { en: "Projects"},
+    contact: { en: "Contact"},
+    resume: { en: "Resume"}
   },
 
   // Section titles  
   sections: {
-    about: { en: "About", zh: "关于我" },
-    nvidia: { en: "NVIDIA", zh: "英伟达" },
-    publications: { en: "Publications", zh: "论文" },
-    education: { en: "Education", zh: "学历" },
-    internships: { en: "Internships", zh: "实习" },
-    projects: { en: "Projects", zh: "项目" },
-    skills: { en: "Skills", zh: "技能" },
-    contact: { en: "Contact", zh: "联系" }
+    about: { en: "About"},
+    education: { en: "Education"},
+    internships: { en: "Internships"},
+    projects: { en: "Projects"},
+    skills: { en: "Skills"},
+    contact: { en: "Contact"}
   },
 
   // Button text translations
   buttons: {
-    explore: { en: "Explore", zh: "了解更多" },
-    readMore: { en: "Read More", zh: "了解更多" },
-    close: { en: "Close", zh: "关闭" }
+    explore: { en: "Explore"},
+    readMore: { en: "Read More"},
+    close: { en: "Close"}
   },
 
-  contactEmail: "jy5feng@uwaterloo.ca",
+  contactEmail: "vanam.sai@northeastern.edu",
 
   education: [
     {
       title: {
-        en: "University of Waterloo",
-        zh: "滑铁卢大学"
+        en: "K L University, IN",
       },
       para: {
-        en: "Bachelor of Applied Science in Mechatronics Engineering with AI Option, with Distinction",
-        zh: "机械电子工程应用科学学士学位, 人工智能精修, 优秀毕业生"
+        en: "Bachelor of Technology in AI & Data Science, with Distinction."
       },
-      imageSrc: WaterlooLogo,
-      workImg: WaterlooImg,
+      imageSrc: KLLogo,
+      workImg: KLImg,
       url: "https://uwaterloo.ca/mechanical-mechatronics-engineering/",
       description: [
         {
-          en: "GPA: 3.7, specialized in robotics, artificial intelligence, control systems, and embedded systems",
-          zh: "GPA: 3.7, 专攻机器人, 人工智能, 控制系统和嵌入式系统"
+          en: "GPA: 3.6, specialized in robotics, artificial intelligence, Computer vision, and Deep learning"
         },
         {
-          en: "Clubs: SAE AutoDrive Challenge (Level 4 Autonomous Vehicle), Waterloop (Hyperloop)",
-          zh: "社团: SAE自动驾驶挑战赛 (四级自动驾驶车辆), Waterloop (超级高铁)"
+          en: "Clubs: GLUG(GNU / Linux user gorup)",
         },
-        {
-          en: "Scholarships: President's Scholarship, Sanford Flaming Foundation Award, Term Dean's Honor List",
-          zh: "奖学金: 校长奖学金(President's Scholarship), 桑福德弗莱明基金会奖(Sanford Flaming Foundation Award), 学期院长荣誉榜(Term Dean's Honor List)"
-        }
       ],
     },
     {
       title: {
-        en: "Active Robotics Interaction Lab",
-        zh: "主动机器人交互 (Active Robotics Interaction) 实验室"
+        en: "Northeastern University, Boston, MA",
       },
       para: {
-        en: "Researched human perception of robot behaviors under Dr. Yue Hu, paper published in IEEE Robotics and Automation Letters",
-        zh: "在Hu Yue博士指导下研究人类对机器人行为的感知, 论文发表于IEEE机器人与自动化快报 (IEEE Robotics and Automation Letters)"
+        en: "Master of Science in Robotics/ mechatronics",
       },
-      imageSrc: AirLabLogo,
-      workImg: AirLabImg,
-      url: "https://airlab.stanford.edu/",
-      description: [
-        {
-          en: "N. Abdulazeem, N. Sichert, J. Y. Feng and Y. Hu, 'Quantifying Human Mental State in Interactive pHRI: Maintaining Balancing,' in IEEE Robotics and Automation Letters, vol. 10, no. 3, pp. 2958-2965, March 2025",
-          zh: "N. Abdulazeem, N. Sichert, J. Y. Feng 和 Y. Hu, '量化交互式pHRI中的人类心理状态: 保持平衡,' IEEE机器人与自动化快报, 第10卷, 第3期, 第2958-2965页, 2025年3月"
-        },
-        {
-          en: "Brainstormed and assisted with conducting experiments to analyze the effect of active vs passive robot behavior on user's cognition during balancing tasks",
-          zh: "协助策划与进行实验, 分析主动与被动机器人行为对用户在平衡任务中认知的影响"
-        },
-        {
-          en: "Developed scripts to track participant's pose and worked with the Sawyer robot using ROS",
-          zh: "开发视觉追踪脚本测算参与者姿态, 并使用ROS2来控制Sawyer机械臂"
-        }
-      ],
-    },
-    {
-      title: {
-        en: "Stanford University",
-        zh: "斯坦福大学"
-      },
-      para: {
-        en: "Robotics and Autonomous Systems Graduate Certificate (In Progress)",
-        zh: "机器人与智能系统研究证书 (进行中)"
-      },
-      imageSrc: StanfordLogo,
-      workImg: StanfordImg,
-      url: "https://www.stanford.edu/",
+      imageSrc: NeuLogo,
+      workImg: NeuImg,
+      url: "https://www.northeastern.edu/",
       description: [
         {
           en: "Classes focus on classical control theories and reinforcement learning for mobile robots",
-          zh: "课程专注于移动机器人的经典控制理论和基于强化学习的移动机器人控制"
         },
         {
-          en: "Classes: CS 237A Principles or Robot Autonomy I, CS 237B Principles or Robot Autonomy II",
-          zh: "课程: CS 237A 机器人自主原理I, CS 237B 机器人自主原理II"
-        }
+          en: "Classes: ME 5250 Robot Mechanics and Control, EECE 5550 Mobile Robotics, CS 5180 Reinforcement Learning and Sequential Decision Making, EECE 5554 Robot Sensing and Navigation",
+        },
+        {
+          en: "Clubs: NURover(Autonomous rover team), NUAerospace(Rocketry framework design), NUAstronomy(stargazing and astrophotographer))
+
+        },
       ],
     }
   ],
