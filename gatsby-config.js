@@ -23,7 +23,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Sai Jayakar Vanam's Portfolio`,
+        name: `Jayakar's Portfolio`,
         short_name: `Jayakar`,
         start_url: `/`,
         background_color: `#663399`,
