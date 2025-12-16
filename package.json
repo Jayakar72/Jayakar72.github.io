@@ -1,9 +1,9 @@
 {
   "name": "Main",
   "private": true,
-  "description": "Personal Website from a non web developer",
+  "description": "Personal Website from a non-web developer",
   "version": "0.1.0",
-  "author": "Steven Feng <jy5feng@uwaterloo.ca>",
+  "author": "Sai Jayakar Vanam <vanam.sai@northeastern.edu>",
   "dependencies": {
     "bootstrap": "^5.3.2",
     "date-fns": "^4.1.0",
@@ -47,9 +47,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stevenf7/stevenf7.github.io/"
+    "url": "https://github.com/Jayakar72/Jayakar72.github.io/"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
+
