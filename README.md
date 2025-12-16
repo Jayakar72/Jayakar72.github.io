@@ -1,6 +1,6 @@
 # Hi, this is my personal website!
 
-My name is Sai Jayakar Vanam, I am a Master's robotics grad student at Northeaster University.
+My name is Sai Jayakar Vanam, I am a Master's robotics grad student at Northeastern University. I enjoy working on Autonomous robots, and I also dabble in aerospace and astronomy, hoping to build an iRobot for space ;).
 
 This repo contains the source code to my personal website. 
 
@@ -46,5 +46,6 @@ Running this command in your local terminal will deploy your current branch to "
 ```bash
 npm run deploy
 ```
+
 
 
