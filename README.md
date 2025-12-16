@@ -1,6 +1,6 @@
 # Hi, this is my personal website!
 
-My name is Ji Yuan "Steven" Feng, I am a robotics engineer at NVIDIA, building the next generation simulation platforms for training and deploying sophisticated robots.
+My name is Sai Jayakar Vanam, I am a Master's robotics grad student at Northeaster University.
 
 This repo contains the source code to my personal website. 
 
@@ -46,4 +46,5 @@ Running this command in your local terminal will deploy your current branch to "
 ```bash
 npm run deploy
 ```
+
 
