@@ -61,8 +61,7 @@ const siteData = {
   },
  
   headerParagraph: {
-    en: "I am a robotics systems engineer passionate about bringing autonomous and biomimetic robots to life.",
-    zh: "我是一名机器人系统工程师,致力于将智能机器人和仿生机器人带入现实。"
+    en: "I am a robotics systems engineer passionate about bringing autonomous and biomimetic robots to life."
   },
 
   // Navigation labels
