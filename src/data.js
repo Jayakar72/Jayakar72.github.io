@@ -57,8 +57,7 @@ const siteData = {
 
  
   name: {
-    en: "Ji Yuan 'Steven' Feng",
-    zh: "冯纪元"
+    en: "Sai Jayakar Vanam",
   },
  
   headerParagraph: {
