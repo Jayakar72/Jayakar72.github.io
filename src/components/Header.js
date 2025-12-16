@@ -159,10 +159,10 @@ const Header = () => {
 
           <Fade bottom>
             <a
-              href={`https://www.linkedin.com/in/stevenfeng7/`}
+              href={`https://www.linkedin.com/in/sai-jayakar-vanam-582310225/`}
               className="primary-btn"
             >
-              {getText({ en: "CONNECT WITH ME!", zh: "与我联系！" }, language)}
+              {getText({ en: "CONNECT WITH ME!"}, language)}
             </a>
           </Fade>
         </div>
