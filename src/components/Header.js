@@ -3,7 +3,7 @@ import Fade from "./animations/Fade"
 import { useLanguage } from "../contexts/LanguageContext"
 import data, { getText } from "../data"
 import { Typewriter } from "react-simple-typewriter"
-import imgUrl from "../images/headrphoto2.JPG"
+import imgUrl from "../images/headrphoto2.jpg"
 
 const Header = () => {
   const { language } = useLanguage();
