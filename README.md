@@ -4,7 +4,7 @@ My name is Ji Yuan "Steven" Feng, I am a robotics engineer at NVIDIA, building t
 
 This repo contains the source code to my personal website. 
 
-Checkout my site at: https://stevenf7.github.io/
+Checkout my site at: https://Jayakar72.github.io/
 
 ## Development
 
@@ -46,3 +46,4 @@ Running this command in your local terminal will deploy your current branch to "
 ```bash
 npm run deploy
 ```
+
