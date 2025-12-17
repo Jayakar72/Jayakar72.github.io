@@ -22,7 +22,7 @@ const Project = () => {
 
   // Media mapping for carousel items
   const mediaMap = {
-    airplaneImage,
+    trajpred,
     watoImage,
     capstoneVideo,
     webappImg,
