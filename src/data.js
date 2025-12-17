@@ -16,7 +16,7 @@ import googleScholarIcon from "./images/contactIcon/gscholar.png"
 
 // Company icon
 import TihanIcon from "./images/workPhotos/TIhanlogo.jpg"
-import ARCIIcon from "./images/workPhotos/ARCI1.jpg"
+import ARCIIcon from "./images/workPhotos/ARCI2.jpg"
 import EcobeeIcon from "./images/company/ecobee.webp"
 import UwaterlooIcon from "./images/company/Uwaterloo.webp"
 import KhazanahIcon from "./images/company/Khazanah.webp"
@@ -151,7 +151,7 @@ const siteData = {
       
       url: "/work/tihan/",
 
-      date: "05/2022 - 08/2022 ",
+      date: "07/2024 - 12/2024 ",
 
       description: [
         {
@@ -186,7 +186,7 @@ const siteData = {
    
       url: "/work/arci/",
       
-      date: "01/2022 - 04/2022 ",
+      date: "05/2024 - 06/2024 ",
 
       description: [
         {
@@ -206,163 +206,40 @@ const siteData = {
 
     {
       title: {
-        en: "ecobee",
-        zh: "ecobee"
+        en: "L.V.P Eye Institute",
       }, 
       position: {
-        en: "Embedded Systems Developer - ecobee",
-        zh: "嵌入式系统开发工程师 - ecobee"
+        en: "R/D Project staff",
       },
       para: {
-        en: "Built production test fixtures and CV/ML algorithms for smart thermostat display testing.",
-        zh: "为智能恒温器显示测试构建生产测试设备和计算机视觉/机器学习检测算法。"
+        en: "Building an AI-based quality assessment checker for teleophthalmology/teleconsultancy",
       },
       
       imageSrc:
-        EcobeeIcon  ,    
+        EcobeeIcon,    
      
-      url: "/work/ecobee/",
+      url: "/work/lvpei/",
 
-      date: "05/2021 - 08/2021 ",
+      date: "01/2025 - 08/2025 ",
 
       description: [
         {
           en: "Built display testing pipeline using C++ OpenCV to detect discoloration, misalignment, dead pixels, and poor connections, capable of detecting alignment offsets of 0.5mm and dead pixels under 0.2mm",
-          zh: "使用C++ OpenCV为ecobee智能恒温器构建显示测试管道,检测变色、错位、坏点和连接不良,能够检测0.5mm的对齐偏移和0.2mm以下的坏点"
         },
         {
           en: "Prototyped LCD tests using Convolutional Neural Network and TensorFlow with 98% accuracy, won Best Internal Impact Award",
-          zh: "使用卷积神经网络和TensorFlow原型化LCD测试,准确率达98%,获得最佳内部影响奖(Best Internal Impact Award)"
         },
         {
           en: "Gathered requirements, designed, and developed customer firmware flash and label printer software for the smart thermostats using C++/CLI and .NET framework, logging results using MongoDB, printing labels using ZPL",
-          zh: "收集需求,设计和开发智能恒温器的客户固件刷写和标签打印软件,使用C++/CLI和.NET框架,通过MongoDB记录结果,使用ZPL打印标签"
         },
         {
           en: "Drafted documentation and deployed customer firmware flash and label printer software at Wistron factory for Design Validation Test, projected to flash 80000+ units per month in full production",
-          zh: "起草文档并在纬创工厂部署客户固件刷写和标签打印软件进行设计验证测试,预计在全面生产中每月刷写80000+台设备"
         }
       ],
    
       workImg:
         ecobee,
     },
-    {
-      title: {
-        en: "University of Waterloo, Faculty of Electrical and Computer Engineering",
-        zh: "滑铁卢大学电气与计算机工程学院"
-      }, 
-      position: {
-        en: "Teaching Assistant - University of Waterloo",
-        zh: "助教 - 滑铁卢大学"
-      },
-      para: {
-        en: "TA for intro C++ course; led tutorials, graded, designed exams.",
-        zh: "C++入门课程助教; 指导辅导课, 评分, 设计考试。"
-      },
-      
-      imageSrc:
-        UwaterlooIcon,
-      
-      url: "/work/uwaterloo/",
-
-      date: "09/2020 - 12/2020 ",
-
-      description: [
-        {
-          en: "Designed questions on quizzes, midterm, and final and created automated testing using C++ and python to grade 300+ submissions per assessment and provide instantaneous feedback using Python expect library and regular expression based on the SOLID design principle",
-          zh: "设计测验、期中和期末考试题目,使用C++和Python创建自动化测试系统,基于SOLID设计原则使用Python为每次评估的300+份提交提供即时反馈"
-        },
-        {
-          en: "Lead lab and help sessions for 300+ students assisted with teaching concepts in C++, such as dynamic memory allocation, Object-Oriented Programming, pointers, and linked lists, leads to a significant increase in student grades",
-          zh: "为300多名学生领导实验室和辅导课程, 协助教授C++概念, 如动态内存分配, OOP编程, pointers和linked lists, 显著提高了学生成绩"
-        }
-      ],
-      
-      
-      workImg:
-        uwaterloo,
-    },
-    {
-      title: {
-        en: "Khazanah National Americas",
-        zh: "国库控股美洲分部"
-      }, 
-      position: {
-        en: "Innovation Developer - Khazanah",
-        zh: "创新开发工程师 - Khazanah"
-      },
-      para: {
-        en: "Explored drone, CV, and AR/VR tech to support investor understanding and decision-making.",
-        zh: "探索无人机、计算机视觉和AR/VR技术,为投资者提供技术支持。"
-      },
-      
-      imageSrc:
-        KhazanahIcon,
-      
-      url: "/work/khazanah/",
-
-      date: "01/2020 - 04/2020 ",
-
-      description: [
-        {
-          en: "Created a VR game based on Atari's Asteroids for Oculus Go platform, designed game logic, collision physics, and cloud leaderboard using C#, Unity, and Oculus developer toolkit, created asteroid models with blender",
-          zh: "为Oculus Go平台创建基于雅达利小行星的VR游戏,使用C#、Unity和Oculus开发工具包设计游戏逻辑、碰撞物理和云排行榜,使用Blender创建小行星模型"
-        },
-        {
-          en: "Developed novel computer vision-based control for drones using Python OpenCV library, capable of tracking and following an Aruco marker in different lighting conditions up to 10 meters away, and autonomous take-off and land.",
-          zh: "使用Python OpenCV库开发基于计算机视觉的新型无人机控制,能够在不同光照条件下跟踪和跟随10米范围内的Aruco标记,并实现自主起降。"
-        },
-        {
-          en: "Design open-sourced smart germicidal device with UV-C bulbs to sterilize personal devices; won Editor's Choice Award on Instructable",
-          zh: "在新冠期间,设计并开源智能杀菌设备,使用UV-C灯泡消毒个人设备;在Instructable网站上获得编辑选择奖"
-        }
-      ],
-    
-      workImg:
-        Khazanah,
-    
-    },
-    {
-      title: {
-        en: "Ford Motor Company",
-        zh: "福特汽车公司"
-      }, 
-      position: {
-        en: "Manufacturing Software Developer - Ford",
-        zh: "制造软件开发工程师 - Ford"
-      },
-      para: {
-        en: "Supported F150 Lightning development and testing using Jenkins, TestStand, C#, Python.",
-        zh: "使用Jenkins、TestStand、C#、Python支持F150 Lightning车载芯片的开发和测试。"
-      },      
-      imageSrc:
-        FordIcon,
-     
-      url: "/work/ford/",
-
-      date: "05/2019 - 08/2019 ",
-
-      description: [
-        {
-          en: "Developed automation pipeline to flash and systematically test devices routinely on the Jenkins platform for over 100 daily tests",
-          zh: "在Jenkins平台上开发自动化管道,例行刷写和系统测试设备,每日运行超过100个测试"
-        },
-        {
-          en: "Prototyped utility in C# to flash multiple chips simultaneously on TestStand using C#, increasing efficiency by over 2 times",
-          zh: "使用C#在TestStand上原型化同时刷写多个芯片的实用程序,效率提高超过2倍"
-        },
-        {
-          en: "Debugged audio issues for infotainment chips with TestStand and .Net Framework by recreating issues in controlled settings",
-          zh: "通过在受控环境中重现问题,使用TestStand和.Net Framework调试信息娱乐芯片的音频问题"
-        }
-      ],
-      
-      workImg:
-      ford,
-    
-    },
-
 
   ],
 
