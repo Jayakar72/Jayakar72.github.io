@@ -32,7 +32,7 @@ import ecobee from "./images/workPhotos/ecobeeProduct.webp"
 
 // School images
 import KLLogo from "./images/school/KLUniversitylogo.png"
-import NeuLogo from "./images/school/NEUlogo.png"
+import NeuLogo from "./images/school/NEUlogo3.png"
 import KLImg from "./images/school/waterloo_eng_img.webp"
 import NeuImg from "./images/school/stanford_img.webp"
 
