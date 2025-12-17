@@ -17,18 +17,13 @@ import googleScholarIcon from "./images/contactIcon/gscholar.png"
 // Company icon
 import TihanIcon from "./images/workPhotos/TIhanlogo.jpg"
 import ARCIIcon from "./images/workPhotos/ARCI2.jpg"
-import EcobeeIcon from "./images/company/ecobee.webp"
-import UwaterlooIcon from "./images/company/Uwaterloo.webp"
-import KhazanahIcon from "./images/company/Khazanah.webp"
-import FordIcon from "./images/company/Ford.webp"
+import LvpeiIcon from "./images/workPhotos/lvpei.png"
+
 
 // company image
 import TihanImg from "./images/workPhotos/Tihan.png"
 import SLMMachine from "./images/workPhotos/arcislm.webp"
-import Khazanah from "./images/workPhotos/khazanah.mp4"
-import uwaterloo from "./images/workPhotos/uwaterlootaImg.webp"
-import ford from "./images/workPhotos/Ford.webp"
-import ecobee from "./images/workPhotos/ecobeeProduct.webp"
+import lvpei from "./images/workPhotos/ecobeeProduct.webp"
 
 // School images
 import KLLogo from "./images/school/KLUniversitylogo.png"
