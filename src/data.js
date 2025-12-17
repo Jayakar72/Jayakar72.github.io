@@ -259,7 +259,7 @@ projectsCarouselItems: [
       en: "Trajectory Prediction (2025)",
     },
     subtitle: {
-      en: "Pose guided trajectory prediction uisng 3d shape estimation",
+      en: "Pose guided trajectory prediction uisng 3D human shape estimation",
     },
     description: {
       en: "In this project, I developed a multimodal pose-guided trajectory prediction net which predicts the future trajectory of pedestrians and their intention, aids in autonomous navigation, avoiding collisions",
