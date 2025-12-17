@@ -6,7 +6,7 @@ import data, { getText } from "../data"
 import "../styles/projects.scss"
 
 import trajpred from "../images/ProjectPhotos/demotrajpred1.mp4"
-import ebike from "../images/ProjectPhotos/ebikedemo.mp4"
+import ebike from "../images/ProjectPhotos/demoebike.mp4"
 import hisecurityImage from "../images/ProjectPhotos/HiSecurity2.webp"
 import pilotImg from "../images/ProjectPhotos/Pilot.webp"
 import vexImg from "../images/ProjectPhotos/VEX.webp"
