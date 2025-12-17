@@ -253,24 +253,21 @@ aboutParaThree: {
 // Projects Carousel Items
 projectsCarouselItems: [
   {
-    media: "airplaneImage",
+    media: "trajpred",
     type: 'image',
     title: {
-      en: "Airplane Project (2020)",
-      zh: "飞机项目 (2020)"
+      en: "Trajectory Prediction (2025)",
     },
     subtitle: {
-      en: "The sky is calling!",
-      zh: "天空在召唤！"
+      en: "Pose guided trajectory prediction uisng 3d shape estimation",
     },
     description: {
-      en: "In this project, I built a remote controlled airplane from scratch using raspberry pi and esp8266 modules, and designed software and mechanical architectures from scratch in a team of two.",
-      zh: "在这个项目中,我和另一个同学从零开始设计并建造了一个使用树莓派和esp8266模块的遥控飞机。"
+      en: "In this project, I developed a multimodal pose-guided trajectory prediction net which predicts the future trajectory of pedestrians and their intention, aids in autonomous navigation, avoiding collisions",
     },
     buttons: [
       {
-        text: { en: "Read More", zh: "了解更多" },
-        url: "https://github.com/The-Airplane-Project/Remote-Controlled-Airplane"
+        text: { en: "Read More"},
+        url: "https://github.com/Jayakar72/Pose-Guided-Trajectory-Prediction-Network-PGTP-Net.git"
       }
     ]
   },
