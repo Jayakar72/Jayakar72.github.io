@@ -16,7 +16,7 @@ import googleScholarIcon from "./images/contactIcon/gscholar.png"
 
 // Company icon
 import TihanIcon from "./images/workPhotos/TIhanlogo.jpg"
-import ARCIIcon from "./images/workPhotos/ARCI.jpg"
+import ARCIIcon from "./images/workPhotos/ARCI1.jpg"
 import EcobeeIcon from "./images/company/ecobee.webp"
 import UwaterlooIcon from "./images/company/Uwaterloo.webp"
 import KhazanahIcon from "./images/company/Khazanah.webp"
