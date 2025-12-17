@@ -15,7 +15,7 @@ import googleScholarIcon from "./images/contactIcon/gscholar.png"
 
 
 // Company icon
-import TeslaIcon from "./images/company/Tesla.webp"
+import TihanIcon from "./images/company/Tihanlogo.jpg"
 import NVIDIAIcon from "./images/company/NVIDIA.webp"
 import EcobeeIcon from "./images/company/ecobee.webp"
 import UwaterlooIcon from "./images/company/Uwaterloo.webp"
@@ -23,7 +23,7 @@ import KhazanahIcon from "./images/company/Khazanah.webp"
 import FordIcon from "./images/company/Ford.webp"
 
 // company image
-import TeslaImg from "./images/workPhotos/TeslaWork_v2.mp4"
+import TihanImg from "./images/workPhotos/Tihan.png"
 import IsaacSim from "./images/workPhotos/isaac_quadruped.mp4"
 import Khazanah from "./images/workPhotos/khazanah.mp4"
 import uwaterloo from "./images/workPhotos/uwaterlootaImg.webp"
