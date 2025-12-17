@@ -211,7 +211,7 @@ const siteData = {
       },
       
       imageSrc:
-        EcobeeIcon,    
+        LvpeiIcon,    
      
       url: "/work/lvpei/",
 
@@ -233,7 +233,7 @@ const siteData = {
       ],
    
       workImg:
-        ecobee,
+        lvpei,
     },
 
   ],
@@ -241,200 +241,14 @@ const siteData = {
 // About Section --------------
 aboutParaOne: {
   en: "I am a robotics engineer with expertise in simulation development, narrowing the sim-to-real gap by creation of high-fidelity virtual environments to accelerate robotic testing and deployment. I am particularly passionate about reinforcement learning and imitation learning, exploring control strategies that enable safer, more human-like interactions.",
-          zh: "我是一名机器人工程师, 专精于仿真开发, 通过创建高保真虚拟环境缩小仿真到现实的差距, 加速机器人测试和部署。我热衷于强化学习和模仿学习, 探索能够实现更安全, 更人性化的交互控制策略。"
 },
 aboutParaTwo: {
   en: "I earned my Bachelor's degree in Mechatronics Engineering from the University of Waterloo. I also conducted human-robot interaction research at the Active Robotics Interaction Lab under Dr. Yue Hu, with a publication on IEEE Robotics and Automation Letters.",
-          zh: "我在滑铁卢大学获得了机电工程学士学位。我还在Hu Yue教授指导下的Active Interactive Robotics Lab进行了人机交互研究, 并在IEEE机器人与自动化快报 (IEEE Robotics and Automation Letters) 上发表了论文。"
 },
 aboutParaThree: {
   en: "When I'm not building robots, you can find me hiking, playing my clarinet and accordion, or exploring new cuisines around the city.",
-          zh: "在工作之余, 我喜欢去爬山, 吹黑管, 拉手风琴, 和探索新的事物。"
 },
 
-nvidiaTime: {
-  en: "2023 to Present",
-  zh: "2023年至今"
-},
-
-nvidiaExperience: [
-  {
-    en: "At NVIDIA, I worked on both Isaac Lab and Isaac Sim, focusing on distinct facets of robotic simulation. In Isaac Lab, I developed scalable humanoid and legged robot models and designed reinforcement learning-based locomotion policies. In Isaac Sim, I concentrated on high-fidelity simulation, building realistic digital twins, synthetic sensor models, and inference pipelines for deploying trained policies through ROS and Isaac Sim. I also presented several talks at NVIDIA GTC on robot composition and software-in-the-loop simulation pipelines.",
-    zh: "在英伟达,我负责Isaac Lab和Isaac Sim的开发研究工作。在Isaac Lab中,我开发了可应用的人形和足式机器人模型,并设计了基于强化学习的运动策略。在Isaac Sim中,我专注于高保真仿真,构建逼真的数字孪生、合成传感器模型,以及通过ROS和Isaac Sim部署训练策略的推理管道。我还在NVIDIA GTC和SIGGRAPH上就建立机器人数字孪生和软件在环(SIL)仿真管道发表了多次演讲。"
-  }
-],
-
-// NVIDIA Carousel Items
-nvidiaCarouselItems: [
-  {
-    media: "gr1ImitationVideo",
-    type: 'video',
-    title: {
-      en: "GR1 humanoid robot imitation learning policy",
-      zh: "GR1人形机器人模仿学习策略"
-    },
-    description: {
-      en: "GR1 humanoid robot demonstrating imitation learning capabilities for human-like movements.",
-      zh: "GR1人形机器人展示模仿学习能力,实现类人动作。"
-    }
-  },
-  {
-    media: "h1FlipGif", // Will be imported in component
-    type: 'video',
-    title: {
-      en: "H1 humanoid robot tries to backflip",
-      zh: "H1人形机器人尝试后空翻"
-    },
-    description: {
-      en: "H1 attempted a backflip, but it didn't go as planned.",
-      zh: "H1机器人尝试后空翻,但硬着陆了。"
-    }
-  },
-  {
-    media: "h1TrainVideo",
-    type: 'video',
-    title: {
-      en: "Teach H1 humanoids how to walk",
-      zh: "教H1人形机器人如何行走"
-    },
-    description: {
-      en: "H1 robot during training phase.",
-      zh: "H1机器人训练阶段。"
-    }
-  },
-  {
-    media: "urLousdVideo",
-    type: 'video',
-    title: {
-      en: "Robotics arm pick and place example",
-      zh: "机械臂抓取和放置示例"
-    },
-    description: {
-      en: "Demonstrating OpenUSD integration with Isaac Sim for robotics applications and digital twin workflows.",
-      zh: "展示OpenUSD与Isaac Sim的集成,用于机器人应用和数字孪生工作流。"
-    }
-  },
-  {
-    media: "frankaMoveitVideo",
-    type: 'video',
-    title: {
-      en: "Franka robot moveit integration",
-      zh: "Franka机器人MoveIt集成"
-    },
-    description: {
-      en: "Franka robot demonstrating MoveIt integration.",
-      zh: "Franka机器人展示MoveIt控制算法。"
-    }
-  },
-  {
-    media: "frankaDrawerVideo",
-    type: 'video',
-    title: {
-      en: "Reinforcement learning based drawer manipulation",
-      zh: "基于强化学习的拉抽屉任务"
-    },
-    description: {
-      en: "Franka robot performing drawer manipulation task.",
-      zh: "Franka机器人执行拉抽屉任务。"
-    }
-  },
-  {
-    media: "claw",
-    type: 'video',
-    title: {
-      en: "High fidelity claw simulation",
-      zh: "高精度机械爪仿真"
-    },
-    description: {
-      en: "Claw robot grasping task.",
-      zh: "机械臂抓取任务。"
-    }
-  },
-  {
-    media: "leatherbackVideo",
-    type: 'video',
-    title: {
-      en: "Ackermann steering simulation for RC car",
-      zh: "遥控车阿克曼转向算法模拟"
-    },
-    description: {
-      en: "RC car simulation",
-      zh: "遥控车模拟"
-    }
-  },
-  {
-    media: "carterOutdoorVideo",
-    type: 'video',
-    title: {
-      en: "Outdoor robot simulation",
-      zh: "户外机器人模拟"
-    },
-    description: {
-      en: "Robot outdoor simulation",
-      zh: "机器人户外模拟"
-    }
-  },
-  {
-    media: "agilityWalkVideo",
-    type: 'video',
-    title: {
-      en: "Agility humanoid robot locomotion policy",
-      zh: "Agility人形机器人行走策略"
-    },
-    description: {
-      en: "Agility humanoid robot demonstrating walking capabilities.",
-      zh: "Agility人形机器人展示行走能力。"
-    }
-  },
-  {
-    media: "gtc_lousd",
-    type: 'image',
-    title: {
-      en: "Giving a presentation on building robot digital twins at GTC 2025",
-      zh: "在GTC 2025上演讲构建机器人数字孪生"
-    },
-    description: {
-      en: "Giving a lecture at GTC 2025 on USD composition.",
-      zh: "在GTC 2025上就使用USD构建机器人数字孪生发表演讲。"
-    }
-  },
-  {
-    media: "gtc_sil",
-    type: 'image',
-    title: {
-      en: "ROS software-in-the-loop simulation lab at GTC 2025",
-      zh: "GTC 2025上的ROS与Isaac Sim软件在环仿真课程"
-    },
-    description: {
-      en: "Giving a lecture at GTC 2025 on ROS integration with Isaac Sim.",
-      zh: "在GTC 2025上就ROS与Isaac Sim集成发表演讲。"
-    }
-  },
-  {
-    media: "newton",
-    type: 'image',
-    title: {
-      en: "Presenting the next generation physics engine Newton at GTC 2025",
-      zh: "在GTC 2025上展示下一代物理引擎Newton"
-    },
-    description: {
-      en: "Presenting Newton, next generation robotics simulator at our both at NVIDIA GTC 2025.",
-      zh: "在NVIDIA GTC 2025的展台上展示Newton下一代机器人模拟器。"
-    }
-  },
-  {
-    media: "siggraphTalk",
-    type: 'image',
-    title: {
-      en: "Giving a talk on reinforcement learning for humanoids at SIGGRAPH 2025",
-      zh: "在SIGGRAPH 2025上发表关于人形机器人强化学习的演讲"
-    },
-    description: {
-      en: "Presenting research on humanoid robot control at SIGGRAPH 2025.",
-      zh: "在SIGGRAPH 2025会议上发表关于人形机器人控制的研究。"
-    }
-  }
-],
 
 // Projects Carousel Items
 projectsCarouselItems: [
