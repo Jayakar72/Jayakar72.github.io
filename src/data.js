@@ -259,7 +259,7 @@ projectsCarouselItems: [
       en: "Trajectory Prediction (2025)",
     },
     subtitle: {
-      en: "Pose guided trajectory prediction uisng 3D human shape estimation",
+      en: "Pose guided trajectory prediction using 3D human shape estimation",
     },
     description: {
       en: "In this project, I developed a multimodal pose-guided trajectory prediction net which predicts the future trajectory of pedestrians and their intention, aids in autonomous navigation, avoiding collisions",
@@ -272,24 +272,21 @@ projectsCarouselItems: [
     ]
   },
   {
-    media: "watoImage",
-    type: 'image',
+    media: "ebike",
+    type: 'video',
     title: {
-      en: "Watonomous",
-      zh: "Watonomous"
+      en: "Autonomous E-Bike",
     },
     subtitle: {
-      en: "Bolty!",
-      zh: "Bolty!"
+      en: "AutoBike!",
     },
     description: {
-      en: "Watonomous is a University of Waterloo design team that turns a chevy bolt to a level 4 autonomous vehicle. At Watonomous, I worked on local planning for the vehicle, particularly with the MPC controller and gained valuable experience with ROS.",
-      zh: "Watonomous是滑铁卢大学的自动驾驶设计团队,目标是将雪佛兰Bolt改造成四级自动驾驶车辆。在Watonomous,我负责车辆的局部规划(local planning),特别是MPC控制器,并积累了宝贵的ROS经验。"
+      en: "In this project, we developed an ADAS level 2 Fully Autonomous E-Bike, where I developed PPC, GNSS, sensor fusion stack, and integrated the brain for the bike, i.e., ORIN/ Raspberry Pi 4. ",
     },
     buttons: [
       {
-        text: { en: "Read more", zh: "了解更多" },
-        url: "https://www.watonomous.ca/"
+        text: { en: "Read more" },
+        url: "https://github.com/Jayakar72/Autonomous-E-Bike"
       }
     ]
   },
