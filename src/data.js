@@ -23,7 +23,7 @@ import LvpeiIcon from "./images/workPhotos/lvpei.png"
 // company image
 import TihanImg from "./images/workPhotos/Tihan.png"
 import SLMMachine from "./images/workPhotos/arcislm.webp"
-import lvpei from "./images/workPhotos/ecobeeProduct.webp"
+import lvpei from "./images/workPhotos/lvpei.jpeg"
 
 // School images
 import KLLogo from "./images/school/KLUniversitylogo.png"
@@ -207,7 +207,7 @@ const siteData = {
         en: "R/D Project staff",
       },
       para: {
-        en: "Building an AI-based quality assessment checker for teleophthalmology/teleconsultancy",
+        en: "Building Grab-I, an AI-based quality assessment checker for teleophthalmology/teleconsultancy",
       },
       
       imageSrc:
