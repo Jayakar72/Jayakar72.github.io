@@ -6,7 +6,7 @@ import data, { getText } from "../data"
 import "../styles/projects.scss"
 
 import trajpred from "../images/ProjectPhotos/demotrajpred1.mp4"
-import watoImage from "../images/ProjectPhotos/Wato.webp"
+import ebike from "../images/ProjectPhotos/ebikedemo.mp4"
 import hisecurityImage from "../images/ProjectPhotos/HiSecurity2.webp"
 import pilotImg from "../images/ProjectPhotos/Pilot.webp"
 import vexImg from "../images/ProjectPhotos/VEX.webp"
@@ -23,7 +23,7 @@ const Project = () => {
   // Media mapping for carousel items
   const mediaMap = {
     trajpred,
-    watoImage,
+    ebike,
     capstoneVideo,
     webappImg,
     wearableImg,
