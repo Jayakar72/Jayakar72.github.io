@@ -254,7 +254,7 @@ aboutParaThree: {
 projectsCarouselItems: [
   {
     media: "trajpred",
-    type: 'image',
+    type: 'video',
     title: {
       en: "Trajectory Prediction (2025)",
     },
