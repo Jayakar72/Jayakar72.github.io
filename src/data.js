@@ -147,7 +147,7 @@ const siteData = {
         en: "Developed SOTIF ISO - 21448 test scenarios/environment for SUZUKI autonomous vehicle",
       },      
       imageSrc:
-        TeslaIcon,
+        TihanIcon,
       
       url: "/work/tesla/",
 
@@ -169,7 +169,7 @@ const siteData = {
       ],
 
       workImg:
-        TeslaImg,
+        TihanImg,
     },
     {
       title: {
