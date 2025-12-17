@@ -16,7 +16,7 @@ import googleScholarIcon from "./images/contactIcon/gscholar.png"
 
 // Company icon
 import TihanIcon from "./images/workPhotos/TIhanlogo.jpg"
-import NVIDIAIcon from "./images/company/NVIDIA.webp"
+import ARCIIcon from "./images/workPhotos/ARCI.jpg"
 import EcobeeIcon from "./images/company/ecobee.webp"
 import UwaterlooIcon from "./images/company/Uwaterloo.webp"
 import KhazanahIcon from "./images/company/Khazanah.webp"
@@ -24,7 +24,7 @@ import FordIcon from "./images/company/Ford.webp"
 
 // company image
 import TihanImg from "./images/workPhotos/Tihan.png"
-import IsaacSim from "./images/workPhotos/isaac_quadruped.mp4"
+import SLMMachine from "./images/workPhotos/arcislm.webp"
 import Khazanah from "./images/workPhotos/khazanah.mp4"
 import uwaterloo from "./images/workPhotos/uwaterlootaImg.webp"
 import ford from "./images/workPhotos/Ford.webp"
@@ -149,7 +149,7 @@ const siteData = {
       imageSrc:
         TihanIcon,
       
-      url: "/work/tesla/",
+      url: "/work/tihan/",
 
       date: "05/2022 - 08/2022 ",
 
@@ -173,41 +173,35 @@ const siteData = {
     },
     {
       title: {
-        en: "NVIDIA",
-        zh: "英伟达"
+        en: "ARCI",
       }, 
       position: {
-        en: "Robotics Simulation Engineer - NVIDIA",
-        zh: "机器人仿真工程师 - NVIDIA"
+        en: "SLM Machine Engineer - (Additive Manufacturing)",
       },
       para: {
-        en: "Built realistic sensors and simulated quadruped robots in NVIDIA Isaac Sim's robotics platform.",
-        zh: "在NVIDIA Isaac Sim机器人模拟器平台上构建逼真传感器和模拟四足机器人。"
+        en: "Developed an advanced Deep learning algorithm for 3d printed materials produced by SLM",
       },
       imageSrc:
-        NVIDIAIcon,
+        ARCIIcon,
    
-      url: "/work/nvidia/",
+      url: "/work/arci/",
       
       date: "01/2022 - 04/2022 ",
 
       description: [
         {
           en: "Developed Quadruped extension for unitree A1 robots on Isaac Sim using Python, connected quadruped gait controlers to the quadruped model, and created ROS, ROS2, and Visual Inertial Odometry examples for Isaac Sim.",
-          zh: "使用Python为Isaac Sim上的宇树A1机器人开发四足动物应用,将四足步态控制器连接到四足模型,并为Isaac Sim创建ROS、ROS2和视觉惯性里程计示例。"
         },
         {
           en: "Created Isaac Sensor extension for simulating physic based sensors such as the contact sensor and IMU sensors using C++ and Python, written USD schema for the sensors, enabling visualization and modification of sensor parameters during runtime from the GUI",
-          zh: "使用C++和Python创建Isaac Sim传感器应用,用于模拟基于物理的传感器,如接触传感器和IMU传感器。并且为传感器编写USD格式,来允许在运行时从窗口可视化和修改传感器参数"
         },
         {
           en: "Drafted user manual and extension documentations using Sphinx, and created unit tests for the quadruped and Isaac sensor extension.",
-          zh: "使用Sphinx编写用户手册和应用文档,并为四足动物和Isaac传感器应用创建单元测试。"
         }
       ],
       
       workImg:
-        IsaacSim,
+        SLMMachine,
     },
 
     {
