@@ -138,16 +138,13 @@ const siteData = {
   projects: [
     {
       title: {
-        en: "Tesla",
-        zh: "特斯拉"
+        en: "TiHAN( SUZUKI MNC)",
       }, 
       position: {
-        en: "Body Controls Developer - Tesla",
-        zh: "车身控制开发工程师 - Tesla"
+        en: "Autonomous Vehicle Test Engineer - SUZUKI",
       },
       para: {
-        en: "Developed lighting apps for new Model S/X and Tesla Semi, including Tesla Light Test.",
-        zh: "为新款Model S/X和Tesla Semi开发照明应用,包括Tesla Light Test。"
+        en: "Developed SOTIF ISO - 21448 test scenarios/environment for SUZUKI autonomous vehicle",
       },      
       imageSrc:
         TeslaIcon,
@@ -159,19 +156,15 @@ const siteData = {
       description: [
         {
           en: 'Designed "Semi LightTest" feature for controlling 19 unique light groups across 4 controllers in C, displayed at the Tesla Semi Delivery Event by Elon Musk',
-          zh: '使用C语言设计"Semi Light Test"功能,通过4个控制器同时控制19个独特灯组,由埃隆·马斯克在Tesla Semi交付活动中亲自展示'
         },
         {
           en: 'Set up simulations for the Semi Truck lighting controllers in Python and created Software In a Loop tests using Python, drafted "Semi Light Test" specs on Polarion',
-          zh: '使用Python建立Semi卡车照明控制器仿真模拟器,创建软件在环测试(SIL),在Polarion上起草"Semi Light Test"规范'
         },
         {
           en: 'Brought up lighting fault detection and lighting alerts for Tesla Semi headlamps, rear lights, and trailer lights using C via CAN network',
-          zh: '通过CAN网络使用C语言为Tesla Semi前照灯、尾灯和拖车灯启动照明故障检测和照明警报'
         },
         {
           en: 'Created self-tests for checking Semi\'s mirror, latch, steering wheel, and horn and fixed various firmware bugs for Model S/X lighting in C',
-          zh: '创建自检功能检查Semi的镜子、门锁、方向盘和喇叭,并修复Model S/X照明的各种固件错误'
         }
       ],
 
