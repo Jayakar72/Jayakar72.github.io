@@ -5,7 +5,7 @@ import { useLanguage } from "../contexts/LanguageContext"
 import data, { getText } from "../data"
 import "../styles/projects.scss"
 
-import airplaneImage from "../images/ProjectPhotos/airplane.webp"
+import Trajpred from "../images/ProjectPhotos/demontrajpred.gif"
 import watoImage from "../images/ProjectPhotos/Wato.webp"
 import hisecurityImage from "../images/ProjectPhotos/HiSecurity2.webp"
 import pilotImg from "../images/ProjectPhotos/Pilot.webp"
