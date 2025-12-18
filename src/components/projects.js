@@ -10,7 +10,7 @@ import ebike from "../images/ProjectPhotos/demoebike.mp4"
 import nurover from "../images/ProjectPhotos/demomarsrover.mp4"
 import pilotImg from "../images/ProjectPhotos/Pilot.webp"
 import vexImg from "../images/ProjectPhotos/VEX.webp"
-import wearableImg from "../images/ProjectPhotos/wearableHacks.webp"
+import selfdriving from "../images/ProjectPhotos/demoselfdriving.mp4"
 import hisecurityImage from "../images/ProjectPhotos/WebappProjects.webp"
 import mte380Img from "../images/ProjectPhotos/mte380.webp"
 import robot from "../images/ProjectPhotos/demour3.mp4"
@@ -26,7 +26,7 @@ const Project = () => {
     ebike,
     robot,
     nurover,
-    wearableImg,
+    selfdriving,
     mte380Img,
     hisecurityImage,
     vexImg,
