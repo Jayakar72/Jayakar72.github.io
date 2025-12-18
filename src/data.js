@@ -377,19 +377,17 @@ projectsCarouselItems: [
     buttons: []
   },
   {
-    media: "pilotImg",
-    type: 'image',
+    media: "astronomy",
+    type: 'video',
     title: {
-      en: "Pilot",
-      zh: "飞行员"
+      en: "Amaeture astronomer",
     },
     subtitle: {
-      en: "\"Oh! I slipped the surly bonds of earth and danced the skies on bright yellow wings.\"",
-      zh: "\"大鹏一日同风起，扶摇直上九万里。\" - 李白"
+      en: "\"Oh! A comet just passed make a wish fast!! (^^)\"",
     },
     description: {
-      en: "I finally touched the sky when I earned my glider pilot license in 2016 and private pilot license in 2017. This was an breathtaking experiences that inspires me to build robotics airplanes to this date.",
-      zh: "当我在2016年获得滑翔机执照和2017年获得飞机执照时,我终于划破天际。"
+      en: "Murphy's law doesn't mean that something bad will happen. It means that whatever can happen, will happen",
+      
     },
     buttons: []
   }
