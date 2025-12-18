@@ -228,8 +228,13 @@ const siteData = {
           en: "Built custom models to deal with every quality issue, standard SVM with feature fusion to detect blur/ focus, and custom attention ViT for detecting any reflections inside the cornea and for illumination, a custom CNN with HSV saturation logic. All of these models are trained, tested, and validated in Docker. ",
         },
         {
-          en: "Drafted an ophthalmology paper, and this work is a continuation of the paper \"<a href=https://www.linkedin.com/in/sai-jayakar-vanam-582310225/">Next-Generation-Teleophthalmology</a>\" the current research is done on Tier 2 & 3, and the envisaged solution for end-to-end quality assessment is updated.",
+          en: "Drafted an ophthalmology paper, and this work is a continuation of the paper Next-Generation Teleophthalmology. The current research is done on Tier 2 & 3, and the envisaged solution for end-to-end quality assessment is updated.",
         }
+        buttons: [
+      {
+        text: { en: "Read more" },
+        url: "https://arxiv.org/pdf/2402.07118"
+      },
       ],
    
       workImg:
