@@ -243,10 +243,10 @@ aboutParaOne: {
   en: "I am a robotics engineer with expertise in simulation development, narrowing the sim-to-real gap by creation of high-fidelity virtual environments to accelerate robotic testing and deployment. I am particularly passionate about reinforcement learning and imitation learning, exploring control strategies that enable safer, more human-like interactions.",
 },
 aboutParaTwo: {
-  en: "I earned my Bachelor's degree in Mechatronics Engineering from the University of Waterloo. I also conducted human-robot interaction research at the Active Robotics Interaction Lab under Dr. Yue Hu, with a publication on IEEE Robotics and Automation Letters.",
+  en: "I earned my Bachelor's degree in Artificial Intelligence. I also conducted human-robot interaction research at the Active Robotics Interaction Lab under Dr. Yue Hu, with a publication on IEEE Robotics and Automation Letters.",
 },
 aboutParaThree: {
-  en: "When I'm not building robots, you can find me hiking, playing my clarinet and accordion, or exploring new cuisines around the city.",
+  en: "When I'm not building robots, you can find me building rockets, stargazing, or exploring new cuisines around the city.",
 },
 
 
@@ -398,17 +398,17 @@ projectsCarouselItems: [
     {
       img: clangIcon,
       para:
-        "C, C++, C#, CUDA",
+        "C, C++, CUDA",
     },
     {
       img: codeIcon,
       para:
-        "Python, MATLAB, R",
+        "Python, MATLAB",
     },
     {
       img: RPIIcon,
       para:
-        "Arduino, Raspberry Pi, ESP8266",
+        "Arduino, Raspberry Pi, ESP8266, ORIN",
     },
     {
       img: openCVIcon,
@@ -428,12 +428,12 @@ projectsCarouselItems: [
     {
       img: isaacsIcon,
       para:
-        "Isaac Sim, Isaac Lab",
+        "Isaac Sim, Carla sim",
     },
     {
       img: airplaneIcon,
       para:
-        "Private Pilot, Glider Pilot License",
+        "Rocket design, Model rocketry, Rocket framework",
     },
     
   ],
@@ -444,20 +444,15 @@ projectsCarouselItems: [
 
   contactSubHeading: {
   en: "Let's chat about robots!",
-  zh: "一起聊聊机器人吧！"
 },
   social: [
 
     { img: githubIcon, 
-      url: "https://github.com/stevenf7"
-    },
-    {
-      img: googleScholarIcon,
-      url: "https://scholar.google.com/citations?hl=en&user=0YSkT7UAAAAJ",
+      url: "https://github.com/Jayakar72"
     },
     {
       img: linkedinIcon,
-      url: "https://www.linkedin.com/in/stevenfeng7/",
+      url: "https://www.linkedin.com/in/sai-jayakar-vanam-582310225/",
     },
 
   ],
