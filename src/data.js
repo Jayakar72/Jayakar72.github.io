@@ -346,7 +346,7 @@ projectsCarouselItems: [
   },
   {
     media: "mpc",
-    type: 'image',
+    type: 'video',
     title: {
       en: "MPC control + Dynamic object detection."
     },
