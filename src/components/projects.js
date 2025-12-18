@@ -12,7 +12,7 @@ import pilotImg from "../images/ProjectPhotos/Pilot.webp"
 import vexImg from "../images/ProjectPhotos/VEX.webp"
 import selfdriving from "../images/ProjectPhotos/demoselfdriving.mp4"
 import hisecurityImage from "../images/ProjectPhotos/WebappProjects.webp"
-import mte380Img from "../images/ProjectPhotos/mte380.webp"
+import mpc from "../images/ProjectPhotos/MPC.mp4"
 import robot from "../images/ProjectPhotos/demour3.mp4"
 
 const Project = () => {
@@ -27,7 +27,7 @@ const Project = () => {
     robot,
     nurover,
     selfdriving,
-    mte380Img,
+    mpc,
     hisecurityImage,
     vexImg,
     pilotImg
