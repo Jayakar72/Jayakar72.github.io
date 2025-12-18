@@ -11,7 +11,7 @@ import nurover from "../images/ProjectPhotos/demomarsrover.mp4"
 import pilotImg from "../images/ProjectPhotos/Pilot.webp"
 import vexImg from "../images/ProjectPhotos/VEX.webp"
 import wearableImg from "../images/ProjectPhotos/wearableHacks.webp"
-import webappImg from "../images/ProjectPhotos/WebappProjects.webp"
+import hisecurityImage from "../images/ProjectPhotos/WebappProjects.webp"
 import mte380Img from "../images/ProjectPhotos/mte380.webp"
 import robot from "../images/ProjectPhotos/demour3.mp4"
 
