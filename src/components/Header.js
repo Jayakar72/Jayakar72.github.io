@@ -86,7 +86,7 @@ const Header = () => {
                         deleteSpeed={50}
                         delaySpeed={1200}
                         words={
-                          ["Robotics Engineer", "Autonomous Testing Engineer", "rocketeer", "Amateur Astronomer", "Guitarist"]
+                          ["Robotics Engineer", "Autonomous Testing Engineer", "rocketeer", "Amateur Astronomer", "Guitarist", "Gamer"]
                         }
                       />
                     </span>
