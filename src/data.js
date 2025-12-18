@@ -326,29 +326,22 @@ projectsCarouselItems: [
     buttons:[]
   },
   {
-    media: "wearableImg",
-    type: 'image',
+    media: "selfdriving",
+    type: 'video',
     title: {
-      en: "Wearable Hackathon Projects",
-      zh: "可穿戴设备黑客马拉松项目"
+      en: "Self Driving 101",
     },
     subtitle: {
-      en: "1st Place (VisionSense, MakeUofT 2019)",
-      zh: "第一名 (VisionSense, MakeUofT 2019)"
+      en: "This is a capstone project made for tutorials of self-driving 101 in simulation for the freshmen - OOPS & DL courses",
     },
     description: {
-      en: "VisionSense (left) is an IoT outfit to haptically guide users with visual impairments/obstructions while monitoring their environment. Nightlight (right) is a wearable that allows bike users to signal turns at night via motion-sensing technologies which will activate turn lights.",
-      zh: "VisionSense(左)是一套物联网设备,通过触觉引导视觉障碍用户,同时监控环境。Nightlight(右)是一款可穿戴设备,允许骑行者通过运动感应技术在夜间发出转向信号,激活转向灯。"
+      en: "This project was made to help juniors understand self-driving cars and the sensor integration in simulation (Carla / Gazibo). We developed a basic drive, line follower, and waypoint/data collection code(starter) in Python to foster students' skills in self driving field and encourage them to approach this and solve complex problems in autonomous navigation."
     },
     buttons: [
       {
-        text: { en: "VisionSense", zh: "VisionSense" },
-        url: "https://devpost.com/software/visionsense"
+        text: { en: "Read more" },
+        url: "https://github.com/Jayakar72/Self-driving-101"
       },
-      {
-        text: { en: "NightLight", zh: "NightLight" },
-        url: "https://devpost.com/software/team-18-go-team"
-      }
     ]
   },
   {
