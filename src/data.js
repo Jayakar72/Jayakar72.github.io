@@ -323,6 +323,7 @@ projectsCarouselItems: [
     description: {
       en: "Building the autonomous stack of the rover team, working on integrating dual EKF and sensor fusion. Robust navigation through wastelands, aiding in building a base station and GNSS based ntrip correction to the rover."
     },
+    buttons:[]
   },
   {
     media: "wearableImg",
