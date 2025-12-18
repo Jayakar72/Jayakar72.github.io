@@ -311,30 +311,18 @@ projectsCarouselItems: [
     ]
   },
   {
-    media: "webappImg",
-    type: 'image',
+    media: "nurover",
+    type: 'video',
     title: {
-      en: "Webapp Hackathon Projects",
-      zh: "网络应用黑客马拉松项目"
+      en: "Mars rover Autonomous team",
+      
     },
     subtitle: {
-      en: "Best Use of Google Cloud Award (Purrtector, NWHacks 2021)",
-      zh: "谷歌云最佳使用奖 (Purrtector, NWHacks 2021)"
+      en: "NURover club - Building Mars rover to compete in NASA | university rover challenge | canadian international rover challenge",
     },
     description: {
-      en: "Intelibatch (left) is a webapp for displaying and predicting COVID19 cases across North America using React (front end), Flask (back end), and Tensorflow (prediction) to compute the optimal batch size for repeated testing. Purrtector (right) is a chrome extension for encouraging planet positive behaviors by rewarding users with digital pets using React and Flask.",
-      zh: "Intelibatch(左)是一个使用React(前端)、Flask(后端)和Tensorflow(预测)显示和预测北美COVID19病例的网络应用,用于计算重复测试的最佳批次大小。Purrtector(右)是一个谷歌Chrome浏览器扩展,通过使用React和Flask奖励用户数字宠物来鼓励环保行为。"
+      en: "Building the autonomous stack of the rover team, working on integrating dual EKF and sensor fusion. Robust navigation through wastelands, aiding in building a base station and GNSS based ntrip correction to the rover."
     },
-    buttons: [
-      {
-        text: { en: "Intelibatch", zh: "Intelibatch" },
-        url: "https://devpost.com/software/pool-sampler"
-      },
-      {
-        text: { en: "Purrtector", zh: "Purrtector" },
-        url: "https://devpost.com/software/purrtech"
-      }
-    ]
   },
   {
     media: "wearableImg",
