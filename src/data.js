@@ -364,7 +364,7 @@ projectsCarouselItems: [
   },
   {
     media: "nuaero",
-    type: 'image',
+    type: 'video',
     title: {
       en: "Aerospace (Rocketry)",
     },
