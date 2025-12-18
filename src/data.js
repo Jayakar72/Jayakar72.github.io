@@ -345,24 +345,20 @@ projectsCarouselItems: [
     ]
   },
   {
-    media: "mte380Img",
+    media: "mpc",
     type: 'image',
     title: {
-      en: "BOFA, the Line Follower Robot",
-      zh: "BOFA,循线机器人"
+      en: "MPC control + Dynamic object detection."
     },
     subtitle: {
-      en: "2nd highest competition mark",
-      zh: "竞赛第二名"
+      en: "This work is a research project on an MPC controller with Dynamic object detection",
     },
     description: {
-      en: "Lead the mechanical design for a line following robot using SolidWorks, drafted Bill of Material, and oversee software, mechanical, and electrical developments as project manager",
-      zh: "使用SolidWorks领导循线机器人的机械设计,制定物料清单,作为项目经理监督软件、机械和电气开发进度"
+      en: "Developed MPC control for campus shuttle for smoother navigation and following, which controls the roll, pitch, and yaw (Steering) of the vehicle and also the acceleration of the vehicle in every scenario (simple Turns and sharp turns). We also develop a novel Dynamic object detection using lidar. We collected pretrained vehicle and object 3D point cloud data, then aligned consecutive LiDAR scans to remove ego-motion and compared voxel occupancy across frames to isolate points that change over time, clustering and tracking these regions to identify dynamic objects.",
     },
     buttons: [
       {
-        text: { en: "Read More", zh: "了解更多" },
-        url: "https://github.com/B-O-F-A"
+        text: { en: "Cannot publish the work due to NDA ;)"}
       }
     ]
   },
