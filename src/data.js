@@ -363,48 +363,18 @@ projectsCarouselItems: [
     ]
   },
   {
-    media: "hisecurityImage",
+    media: "nuaero",
     type: 'image',
     title: {
-      en: "HiSecurity!",
-      zh: "HiSecurity!"
+      en: "Aerospace (Rocketry)",
     },
     subtitle: {
-      en: "Hack the north, 2019",
-      zh: "Hack the north, 2019"
+      en: "My first model rocket! Hope it doesn't go upside down."
     },
     description: {
-      en: "This camera system which utilizes machine vision (OpenCV and Sktlearn) to physically track and identify faces using the stepper motors onboard. The handy ui also enables users to track the system remotely and in real time.",
-      zh: "这个摄像头系统利用机器视觉(OpenCV和Sklearn)通过板载步进电机物理跟踪和识别人脸。便捷的用户界面还允许用户远程实时跟踪系统。"
+      en: "Joined the NUAero club - airframe design team, and designed custom fins for our rocket and eBay using SolidWorks, design and simulation in OpenRocket ",
     },
-    buttons: [
-      {
-        text: { en: "Read More", zh: "了解更多" },
-        url: "https://devpost.com/software/acs-htn2019"
-      }
-    ]
-  },
-  {
-    media: "vexImg",
-    type: 'image',
-    title: {
-      en: "VEX Robotics",
-      zh: "VEX机器人竞赛"
-    },
-    subtitle: {
-      en: "Finalists, Alberta Provincial Championship 2017 and 2018",
-      zh: "阿尔伯塔省机器人锦标赛决赛圈 (2017和2018年)"
-    },
-    description: {
-      en: "Over the three years, we explored various robotics systems such as holonomic drives, reverse double four bar lifts, and even learned C programming and programed PID controllers from scratch in a team of three.",
-      zh: "在三年中,我们三人团队探索了各种机器人系统,如全向驱动、反向双四杆举升机构,并且学习了C编程并从零开始编程PID控制器。"
-    },
-    buttons: [
-      {
-        text: { en: "Read More", zh: "了解更多" },
-        url: "https://globalnews.ca/video/3355924/sir-winston-churchill-students-head-to-vex-robotics-world-championship/"
-      }
-    ]
+    buttons: []
   },
   {
     media: "pilotImg",
