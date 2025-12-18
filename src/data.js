@@ -272,7 +272,7 @@ projectsCarouselItems: [
     },
     buttons: [
       {
-        text: { en: "Read Mor"},
+        text: { en: "Read More"},
         url: "https://github.com/Jayakar72/Pose-Guided-Trajectory-Prediction-Network-PGTP-Net.git"
       }
     ]
