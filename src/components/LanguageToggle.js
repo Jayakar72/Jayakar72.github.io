@@ -5,21 +5,8 @@ import '../styles/languageToggle.scss';
 const LanguageToggle = () => {
   const { language, toggleLanguage } = useLanguage();
 
-  return (
-    <button 
-      className="language-toggle"
-      onClick={toggleLanguage}
-      type="button"
-      aria-label={`Switch to ${language === 'en' ? 'Chinese' : 'English'}`}
-    >
-      <span className="active-lang">
-        {language === 'en' ? '中' : 'EN'}
-      </span>
-      <span className="inactive-lang">
-        {language === 'en' ? 'EN' : '中'}
-      </span>
-    </button>
-  );
+  return ();
 };
+
 
 export default LanguageToggle;
