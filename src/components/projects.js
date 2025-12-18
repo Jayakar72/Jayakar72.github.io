@@ -9,9 +9,8 @@ import trajpred from "../images/ProjectPhotos/demotrajpred1.mp4"
 import ebike from "../images/ProjectPhotos/demoebike.mp4"
 import nurover from "../images/ProjectPhotos/demomarsrover.mp4"
 import pilotImg from "../images/ProjectPhotos/Pilot.webp"
-import vexImg from "../images/ProjectPhotos/VEX.webp"
+import nuaero from "../images/ProjectPhotos/nuaero.mp4"
 import selfdriving from "../images/ProjectPhotos/demoselfdriving.mp4"
-import hisecurityImage from "../images/ProjectPhotos/WebappProjects.webp"
 import mpc from "../images/ProjectPhotos/MPC.mp4"
 import robot from "../images/ProjectPhotos/demour3.mp4"
 
@@ -28,8 +27,7 @@ const Project = () => {
     nurover,
     selfdriving,
     mpc,
-    hisecurityImage,
-    vexImg,
+    nuaero,
     pilotImg
   };
 
