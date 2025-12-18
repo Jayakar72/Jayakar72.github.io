@@ -7,7 +7,7 @@ import "../styles/projects.scss"
 
 import trajpred from "../images/ProjectPhotos/demotrajpred1.mp4"
 import ebike from "../images/ProjectPhotos/demoebike.mp4"
-import hisecurityImag from "../images/ProjectPhotos/HiSecurity2.webp"
+import hisecurityImage from "../images/ProjectPhotos/HiSecurity2.webp"
 import pilotImg from "../images/ProjectPhotos/Pilot.webp"
 import vexImg from "../images/ProjectPhotos/VEX.webp"
 import wearableImg from "../images/ProjectPhotos/wearableHacks.webp"
