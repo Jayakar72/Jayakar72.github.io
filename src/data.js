@@ -291,24 +291,22 @@ projectsCarouselItems: [
     ]
   },
   {
-    media: "capstoneVideo",
+    media: "robot",
     type: 'video',
     title: {
-      en: "Capstone Project (2023)",
-      zh: "毕业设计项目 (2023)"
+      en: "UR3 (6 DOF) Robot arm - 3D simulation",
+    
     },
     subtitle: {
-      en: "Multi-robot exploration and SLAM in a simulated warehouse",
-      zh: "虚拟仓库中的多机器人探索和SLAM任务"
+      en: "A simple 3D simulation of UR3 robot's workspace and its pose",
     },
     description: {
-      en: "Multi-robot SLAM system for exploring and mapping a 80000 sqft virtual warehouse.",
-      zh: "用于探索和绘制7500平米的虚拟仓库平面图的多机器人SLAM系统原型。"
+      en: "A 6-degree-of-freedom UR3 collaborative robot is used to represent the end-effectors, calculating the robot's DH parameters, Forward kinematics, and Inverse kinematics. Simulating a simple 3D task and workspace of the robots' reachable areas. Designed an interactive robot mover and trajectory follower."
     },
     buttons: [
       {
-        text: { en: "Read more", zh: "了解更多" },
-        url: "https://github.com/FireScopeRobotics"
+        text: { en: "Read more"},
+        url: "https://github.com/Jayakar72/UR3-Robot-Manipulation-in-3D-space"
       }
     ]
   },
