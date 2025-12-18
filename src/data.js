@@ -150,16 +150,16 @@ const siteData = {
 
       description: [
         {
-          en: 'Designed "Semi LightTest" feature for controlling 19 unique light groups across 4 controllers in C, displayed at the Tesla Semi Delivery Event by Elon Musk',
+          en: 'Collected various testing datasets as per ISO - 21448 (Safety of the intended functionality) for the SUZUKI autonomous vehicle, and tested on the current autonomous stack in the test bed.',
         },
         {
-          en: 'Set up simulations for the Semi Truck lighting controllers in Python and created Software In a Loop tests using Python, drafted "Semi Light Test" specs on Polarion',
+          en: 'Set up simulations for the environment testing, like sandstorm, snowfall, debris falling, animal jumping, etc. Observed the bottlenecks and implemented a whole new pipeline of detecting the unknown objects (Dynamic object detection) in python & ROS.  ',
         },
         {
-          en: 'Brought up lighting fault detection and lighting alerts for Tesla Semi headlamps, rear lights, and trailer lights using C via CAN network',
+          en: 'Decreased the unknown unsafe scenarios to the known safe scenarios by rigorous testing. Worked on pure pursuit control algorithm for fine-tuning the vehicle in taking safer and smoother turns in simulation(Python / Matlab) and autonomous campus vehicles using CAN-based hacking.',
         },
         {
-          en: 'Created self-tests for checking Semi\'s mirror, latch, steering wheel, and horn and fixed various firmware bugs for Model S/X lighting in C',
+          en: 'Worked on improving the accuracy of the GNSS(IMU) to centimeter level using NTRIP-based correction through Ublox-uconnect/Pygpsclient(opensource) .',
         }
       ],
 
@@ -185,13 +185,13 @@ const siteData = {
 
       description: [
         {
-          en: "Developed Quadruped extension for unitree A1 robots on Isaac Sim using Python, connected quadruped gait controlers to the quadruped model, and created ROS, ROS2, and Visual Inertial Odometry examples for Isaac Sim.",
+          en: "Developed a deep learning based defect detection system for detecting porosity & cracks using (GAN - python) in the additive manufacturing material as they are getting manufactured, which reduces the cost of reprinting and the metal powder.",
         },
         {
-          en: "Created Isaac Sensor extension for simulating physic based sensors such as the contact sensor and IMU sensors using C++ and Python, written USD schema for the sensors, enabling visualization and modification of sensor parameters during runtime from the GUI",
+          en: "Maintaining the SLM machine and learnt additive manufacturing software, changing the metal-alloy powder, and setting up custom parameters like laser speed, distance, and power to print a defect-free material and testing on stress and global results.",
         },
         {
-          en: "Drafted user manual and extension documentations using Sphinx, and created unit tests for the quadruped and Isaac sensor extension.",
+          en: "Worked in laser processing lab as an intern, in collaboration with the Centre for high energy systems & sciences (CHESS) in developing high-energy laser beam using TRUMPF TruTops Mark software.",
         }
       ],
       
@@ -219,16 +219,16 @@ const siteData = {
 
       description: [
         {
-          en: "Built display testing pipeline using C++ OpenCV to detect discoloration, misalignment, dead pixels, and poor connections, capable of detecting alignment offsets of 0.5mm and dead pixels under 0.2mm",
+          en: "Built a quality assessment framework using Python, OpenCV to  detect blur, corneal reflections, completeness of eye, and other bad qualities to reduce the cost of saving false data and aids in immediate recapturing.",
         },
         {
-          en: "Prototyped LCD tests using Convolutional Neural Network and TensorFlow with 98% accuracy, won Best Internal Impact Award",
+          en: "Researched on various corneal images and image processing approaches like Blur maps, Gaussian blur, Wavelet transforms (Haar), Transformers, contours, edge, and corner,s etc. ",
         },
         {
-          en: "Gathered requirements, designed, and developed customer firmware flash and label printer software for the smart thermostats using C++/CLI and .NET framework, logging results using MongoDB, printing labels using ZPL",
+          en: "Built custom models to deal with every quality issue, standard SVM with feature fusion to detect blur/ focus, and custom attention ViT for detecting any reflections inside the cornea and for illumination, a custom CNN with HSV saturation logic. All of these models are trained, tested, and validated in Docker. ",
         },
         {
-          en: "Drafted documentation and deployed customer firmware flash and label printer software at Wistron factory for Design Validation Test, projected to flash 80000+ units per month in full production",
+          en: "Drafted an ophthalmology paper, and this work is a continuation of the paper \"<a href=https://www.linkedin.com/in/sai-jayakar-vanam-582310225/">Next-Generation-Teleophthalmology</a>\" the current research is done on Tier 2 & 3, and the envisaged solution for end-to-end quality assessment is updated.",
         }
       ],
    
@@ -240,10 +240,10 @@ const siteData = {
 
 // About Section --------------
 aboutParaOne: {
-  en: "I am a robotics engineer with expertise in simulation development, narrowing the sim-to-real gap by creation of high-fidelity virtual environments to accelerate robotic testing and deployment. I am particularly passionate about reinforcement learning and imitation learning, exploring control strategies that enable safer, more human-like interactions.",
+  en: "I am a robotics engineer with expertise in autonomous systems, specialized in high-fidelity simulation and scenario development to improve real-world autonomous robotic testing and deployment. I am particularly passionate about reinforcement learning and imitation learning, exploring control strategies that enable safer, more human-like interactions.",
 },
 aboutParaTwo: {
-  en: "I earned my Bachelor's degree in Artificial Intelligence. I also conducted human-robot interaction research at the Active Robotics Interaction Lab under Dr. Yue Hu, with a publication on IEEE Robotics and Automation Letters.",
+  en: "I earned my Bachelor's degree in Artificial Intelligence, currently pursuing a Master's in Robotics at Northeastern University. I also conducted most of my study on traditional AI-DL-based computer vision research projects, and on autonomous robots at the training, testing, and deployment level."
 },
 aboutParaThree: {
   en: "When I'm not building robots, you can find me building rockets, stargazing, or exploring new cuisines around the city.",
