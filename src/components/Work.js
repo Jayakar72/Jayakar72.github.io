@@ -1,11 +1,13 @@
 import React from "react"
 import Card from "./atoms/Card"
 import Fade from "./animations/Fade"
+import { useLanguage } from "../contexts/LanguageContext"
 import data, { getText } from "../data"
 import {useState} from "react"
 import Modal from "./modal"
 
 const Work = () => {
+  const { language } = useLanguage();
   const [openModal, setOpenModal] = useState(false);
 
   const [id, setId] = useState(0);
