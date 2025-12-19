@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react"
 import Fade from "./animations/Fade"
-import { useLanguage } from "../contexts/LanguageContext"
 import data, { getText } from "../data"
 import { Typewriter } from "react-simple-typewriter"
 import imgUrl from "../images/headerphoto2.jpg"
