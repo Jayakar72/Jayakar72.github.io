@@ -6,12 +6,11 @@ import RPIIcon from "./images/skillsIcon/CPU.svg"
 import SolidworksIcon from "./images/skillsIcon/CAD.svg"
 import codeIcon from "./images/skillsIcon/code.svg"
 import isaacsIcon from "./images/skillsIcon/isaacsim.png"
-import airplaneIcon from "./images/skillsIcon/rocket2.png"
+import airplaneIcon from "./images/skillsIcon/rocket4.png"
 
 // Social Icon
 import githubIcon from "./images/contactIcon/github.svg"
 import linkedinIcon from "./images/contactIcon/linkedin.png"
-import googleScholarIcon from "./images/contactIcon/gscholar.png"
 
 
 // Company icon
