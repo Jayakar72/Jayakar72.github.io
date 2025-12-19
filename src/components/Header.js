@@ -5,7 +5,6 @@ import { Typewriter } from "react-simple-typewriter"
 import imgUrl from "../images/headerphoto2.jpg"
 
 const Header = () => {
-  const { language } = useLanguage();
   // Track orientation for responsive adjustments, initialize with a default value
   const [isLandscape, setIsLandscape] = useState(false);
   const [isIOS, setIsIOS] = useState(false);
