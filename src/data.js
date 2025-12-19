@@ -6,7 +6,7 @@ import RPIIcon from "./images/skillsIcon/CPU.svg"
 import SolidworksIcon from "./images/skillsIcon/CAD.svg"
 import codeIcon from "./images/skillsIcon/code.svg"
 import isaacsIcon from "./images/skillsIcon/isaacsim.png"
-import airplaneIcon from "./images/skillsIcon/airplane.svg"
+import airplaneIcon from "./images/skillsIcon/rocket1.jpg"
 
 // Social Icon
 import githubIcon from "./images/contactIcon/github.svg"
@@ -222,7 +222,7 @@ const siteData = {
           en: "Built a quality assessment framework using Python, OpenCV to  detect blur, corneal reflections, completeness of eye, and other bad qualities to reduce the cost of saving false data and aids in immediate recapturing.",
         },
         {
-          en: "Researched on various corneal images and image processing approaches like Blur maps, Gaussian blur, Wavelet transforms (Haar), Transformers, contours, edge, and corner,s etc. ",
+          en: "Researched on various corneal images and image processing approaches like Blur maps, Gaussian blur, Wavelet transforms (Haar), Transformers, contours, edge, and corners, etc. ",
         },
         {
           en: "Built custom models to deal with every quality issue, standard SVM with feature fusion to detect blur/ focus, and custom attention ViT for detecting any reflections inside the cornea and for illumination, a custom CNN with HSV saturation logic. All of these models are trained, tested, and validated in Docker. ",
