@@ -359,7 +359,7 @@ projectsCarouselItems: [
       en: "This work is a research project on an MPC controller with Dynamic object detection",
     },
     description: {
-      en: "Developed MPC control for campus shuttle for smoother navigation and following, which controls the roll, pitch, and yaw (Steering) of the vehicle and also the acceleration of the vehicle in every scenario (simple Turns and sharp turns). We also develop a novel Dynamic object detection using lidar. We collected pretrained vehicle and object 3D point cloud data, then aligned consecutive LiDAR scans to remove ego-motion and compared voxel occupancy across frames to isolate points that change over time, clustering and tracking these regions to identify dynamic objects.",
+      en: "Developed MPC control for campus shuttle for smoother navigation and following, which controls the roll, pitch, and yaw (Steering) of the vehicle and also the acceleration of the vehicle in every scenario (simple Turns and sharp turns). We also develop a novel Dynamic object detection using lidar. We collected pretrained vehicle and object 3D point cloud data, then aligned consecutive LiDAR scans to remove ego-motion and compared voxel occupancy across frames to isolate points that change over time, clustering and tracking these regions to identify dynamic objects. Used ROS2 for sensor fusion of Baslercam+Lidar Livox and Python for MPC control and detection",
     },
     buttons: []
   },
