@@ -86,7 +86,7 @@ const Header = () => {
                         deleteSpeed={50}
                         delaySpeed={1200}
                         words={
-                          ["Robotics Engineer", "Autonomous Testing Engineer", "rocketeer", "Amateur Astronomer", "Guitarist", "Gamer"]
+                          ["Robotics Engineer", "Autonomous Testing Engineer", "J N Tata Scholar", "rocketeer", "Amateur Astronomer", "Guitarist", "Gamer"]
                         }
                       />
                     </span>
@@ -145,7 +145,7 @@ const Header = () => {
                     deleteSpeed={50}
                     delaySpeed={1200}
                     words={
-                          ["Robotics Engineer", "Autonomous Testing Engineer", "rocketeer", "Amateur Astronomer", "Guitarist", "Gamer"]
+                          ["Robotics Engineer", "Autonomous Testing Engineer", "J N Tata Scholar", "rocketeer", "Amateur Astronomer", "Guitarist", "Gamer"]
                     }
                   />
                 </span>
