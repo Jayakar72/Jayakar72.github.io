@@ -251,7 +251,7 @@ aboutParaTwo: {
   en: "I earned my Bachelor's degree in Artificial Intelligence, currently pursuing a Master's in Robotics at Northeastern University. I also conducted most of my study on traditional AI-DL-based computer vision research projects, and on autonomous robots at the training, testing, and deployment level."
 },
 aboutParaThree: {
-  en: "When I'm not building robots, you can find me building rockets, stargazing, or exploring new cuisines around the city, or playing my favourite sport ping-pong.",
+  en: "When I'm not building robots, you can find me building rockets, stargazing, or exploring new cuisines around the city, or playing ping-pong.",
 },
 
 
