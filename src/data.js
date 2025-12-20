@@ -286,7 +286,7 @@ projectsCarouselItems: [
       en: "AutoBike!",
     },
     description: {
-      en: "In this project, we developed an ADAS level 2 Fully Autonomous E-Bike, where I developed PPC, GNSS, sensor fusion stack, and integrated the brain for the bike, i.e., ORIN/ Raspberry Pi 4. ",
+      en: "In this research project, we developed an ADAS level 2 Fully Autonomous E-Bike, where I developed PPC, GNSS, sensor fusion stack, and integrated the brain for the wheels, i.e., ORIN/ Raspberry Pi 4 with high precision GPS. ",
     },
     buttons: [
       {
@@ -361,11 +361,7 @@ projectsCarouselItems: [
     description: {
       en: "Developed MPC control for campus shuttle for smoother navigation and following, which controls the roll, pitch, and yaw (Steering) of the vehicle and also the acceleration of the vehicle in every scenario (simple Turns and sharp turns). We also develop a novel Dynamic object detection using lidar. We collected pretrained vehicle and object 3D point cloud data, then aligned consecutive LiDAR scans to remove ego-motion and compared voxel occupancy across frames to isolate points that change over time, clustering and tracking these regions to identify dynamic objects.",
     },
-    buttons: [
-      {
-        text: { en: "Cannot publish the work due to NDA ;)"}
-      }
-    ]
+    buttons: []
   },
   {
     media: "nuaero",
