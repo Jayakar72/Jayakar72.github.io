@@ -12,7 +12,7 @@ const ResumeContent = () => {
   
   // Resume PDF URLs - can be configured for different languages
   const resumeUrls = {
-    en: "https://drive.google.com/file/d/1e-9q_5lV2N3iUmEGfQbGCzg7y9HdQnWs/preview",
+    en: "https://drive.google.com/file/d/1K2taQRAY0FHhUEtK8q9Uql-u53xyh0zh/preview",
   };
   
   const resumeUrl = resumeUrls[language] || resumeUrls.en;
@@ -50,6 +50,7 @@ export default function Resume() {
     </div>
   )
 }
+
 
 
 
