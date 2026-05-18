@@ -81,7 +81,9 @@ jobs:
           npm rebuild @parcel/watcher
         
       - name: Clean Gatsby cache
-        run: npx gatsby clean
+        run: |
+          npx gatsby clean
+          npx update-browserslist-db@latest
         
       - name: Build website
         run: |
