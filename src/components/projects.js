@@ -5,6 +5,8 @@ import { useLanguage } from "../contexts/LanguageContext"
 import data, { getText } from "../data"
 import "../styles/projects.scss"
 
+import act from "../images/ProjectPhotos/ur5_servoing_demo.mp4"
+import drone from "../images/ProjectPhotos/RSN_proj.mp4"
 import trajpred from "../images/ProjectPhotos/demotrajpred1.mp4"
 import ebike from "../images/ProjectPhotos/demoebike.mp4"
 import nurover from "../images/ProjectPhotos/demomarsrover.mp4"
@@ -21,6 +23,8 @@ const Project = () => {
 
   // Media mapping for carousel items
   const mediaMap = {
+    act,
+    drone,
     trajpred,
     ebike,
     robot,
