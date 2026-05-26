@@ -258,6 +258,44 @@ aboutParaThree: {
 // Projects Carousel Items
 projectsCarouselItems: [
   {
+    media: "act",
+    type: 'video',
+    title: {
+      en: "Multi-view ACT UR5 servoing",
+    },
+    subtitle: {
+      en: "A hybrid robotic manipulation pipeline combining ACT, perception, and closed-loop visual servoing",
+    },
+    description: {
+      en: "This project was built for the Intrinsic AI for Industry Challenge 2026. Trained and built a robot manipulation pipeline to insert cables into specific ports on NIC cards, designed a hybrid imitation + visual servoing policy to learn the robot's positions relative to the ports.",
+    },
+    buttons: [
+      {
+        text: { en: "Read More"},
+        url: "https://github.com/Jayakar72/multiview-act-ur5-servoing"
+      }
+    ]
+  },
+  {
+    media: "drone",
+    type: 'video',
+    title: {
+      en: "GPS Denied Navigation (ongoing)",
+    },
+    subtitle: {
+      en: "GPS Denied autonomous drone navigation research",
+    },
+    description: {
+      en: "We are currently building autonomous drone navigation for GPS-Denied environments, exploring Visual SLAM and LIOSAM stacks. Currently sponsored by Qualcomm to design drone stack and compete in MassRobotics form and function challenge!!.",
+    },
+    buttons: [
+      {
+        text: { en: "Read More"},
+        url: "https://github.com/umarmakki03/GPS-Denied-Drone-Navigation-for-3D-Mapping-and-Mineral-Detection"
+      }
+    ]
+  },
+  {
     media: "trajpred",
     type: 'video',
     title: {
