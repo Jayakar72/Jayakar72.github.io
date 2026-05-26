@@ -1,6 +1,6 @@
 # Hi, this is my personal website!
 
-My name is Sai Jayakar Vanam, I am a Master's robotics grad student at Northeastern University. I enjoy working on Autonomous robots, and I also dabble in aerospace and astronomy, hoping to build an iRobot for space ;).
+My name is Sai Jayakar Vanam, I am a Master's robotics grad student at Northeastern University. I enjoy working on Autonomous robots, and I also dabble in aerospace and astronomy, hoping to build an autonomous robott fleet for space ;).
 
 This repo contains the source code to my personal website. 
 
