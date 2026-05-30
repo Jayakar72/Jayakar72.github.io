@@ -491,7 +491,7 @@ projectsCarouselItems: [
     },
     {
       img: linkedinIcon,
-      url: "https://www.linkedin.com/in/sai-jayakar-vanam-582310225/",
+      url: "https://www.linkedin.com/in/Jayakar72/",
     },
 
   ],
